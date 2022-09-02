@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akatosh/ontologies/2018/11/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/akatosh/ontologies/2018/11/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#contain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#extract_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#extract_from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#SourceDocument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_calculated_characteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_calculated_characteristic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_combined_characteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_combined_characteristic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CombinedCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_diagnostic_characteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_diagnostic_characteristic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#DiagnosticCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_extracted_characteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_extracted_characteristic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_predicted_characteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_predicted_characteristic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#PredictedCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_asbestos_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_asbestos_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_diagnostic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_diagnostic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_probability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_building_probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_calculation_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_calculation_year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#SourceDocument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_combined_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_combined_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CombinedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_department_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_department_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_diagnostic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_diagnostic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#DiagnosticCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_end_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_end_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_extracted_probability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_extracted_probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_diagnostic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_diagnostic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_probability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_location_probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_newName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_newName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_owner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_owner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_precision -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_precision">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_predicted_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_predicted_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#PredictedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_probability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_provider -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_provider">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_reference -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_reference">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#SourceDocument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_region">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_registration_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_registration_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_source -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_source">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_start_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_start_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_class -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_diagnostic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_diagnostic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_probability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_structure_probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#has_year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Building"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CalculatedCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CombinedCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#CombinedCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#DiagnosticCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#DiagnosticCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#ExtractedCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#PredictedCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#PredictedCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#SourceDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#SourceDocument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akatosh/ontologies/2018/11/AsbestosOntology#Structure"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
